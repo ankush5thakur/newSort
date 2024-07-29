@@ -1,0 +1,47 @@
+.bar {
+  border-radius: 5px 5px 0 0;
+  width: 25px;
+  margin: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.text {
+  border: none;
+  background: transparent;
+  text-align: center;
+  transform: rotate(-90deg);
+  outline: none;
+}
+.quantityNav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -58px;
+  right: 13px;
+  transform: translateX(50%);
+  width: 20px;
+}
+
+.quantity-btn {
+  /* position: absolute; */
+  text-align: center;
+  background-color: #4caf50;
+  margin: 1px 0; /* Vertical margin */
+  cursor: pointer;
+  user-select: none;
+}
+
+.quantity-btn:hover {
+  opacity: 0.5;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

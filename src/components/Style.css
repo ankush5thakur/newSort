@@ -1,0 +1,75 @@
+/* Style.css */
+.contained {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #333; */
+  height: 50vh;
+  justify-content: center;
+}
+
+.bars {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 80%;
+  /* height: 60%; */
+  flex: 1;
+  background-color: #444444;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #4f6af2;
+  width: 50px;
+  margin: 0 5px;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+
+.bar.selected {
+  background-color: #f1c40f;
+}
+
+.bar-value {
+  color: white;
+  position: absolute;
+  top: -20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #9e9e9e;
+}
+
+select {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
