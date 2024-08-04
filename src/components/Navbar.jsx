@@ -43,7 +43,7 @@ const Navbar = () => {
         <div
           className={`flex-col sm:flex-row sm:flex ${
             isOpen ? "flex" : "hidden"
-          } sm:flex items-center w-full sm:w-auto mt-4 sm:mt-0`}
+          } sm:flex items-center w-full sm:w-auto mt-4 sm:mt-0 gap-12`}
         >
           {links.map((item, index) => (
             <NavLink
